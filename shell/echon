@@ -1,0 +1,7 @@
+#!/bin/bash
+# echon
+echon()
+{
+	echo "$*" | tr -d '\n'
+}
+echon $1
